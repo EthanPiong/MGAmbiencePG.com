@@ -61,15 +61,16 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+
 /* Navigation */
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
-	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 30px rgba(0,0,0,0.2)
+	background-color: #ffffff;
+	border-color: rgba(0, 0, 0, 0.184);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.553)
 }
 #menu a.navbar-brand {
 	font-family: 'Montserrat', sans-serif;
@@ -78,7 +79,9 @@ hr {
 	color: #1f386e;
 	text-transform: uppercase;
 	letter-spacing: -1px;
+	position: absolute;
 }
+
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -97,12 +100,13 @@ hr {
 	background-color: transparent;
 }
 #menu .phone {
+	position: absolute;
 	font-family: 'Montserrat', sans-serif;
-	margin: 4px 0 0 120px;
+	margin: 4px 0 0 200px;
 	float: left;
 	font-size: 16px;
 	font-weight: 400;
-	color: #999;
+	color: #4c4c4c;
 }
 #menu .phone span {
 	font-size: 14px;
@@ -110,14 +114,20 @@ hr {
 	color: #1f386e;
 }
 .navbar-toggle {
-	border-radius: 0;
+	border-radius: 5px;
+	background-color:#1f386e ;
+	
+}
+.navbar-default .navbar-toggle>.icon-bar {
+	background-color:#ffffff
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #fff;
-	border-color: #fff;
+	background-color: #1f386e;
+
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #1b6d3f;
+	background-color: #fff;
+	
 }
 .section-title {
 	margin-bottom: 70px;
@@ -259,7 +269,7 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #1f386e;
+	color: #3aae4b;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -270,35 +280,15 @@ header .intro-text {
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+	border-radius: 20px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.156);
 }
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+	text-align: justify;
 }
-/* Services Section */
-#services {
-	padding: 100px 0;
-}
-#services .service-media {
-	margin: 10px;
-}
-#services .service-media img {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: auto;
-}
-#services .service-desc {
-	margin: 10px 10px 20px;
-}
-#services h3 {
-	font-weight: 700;
-	padding: 5px 0;
-}
-#services .service-desc hr {
-	margin-left: 0;
-}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
@@ -315,25 +305,28 @@ header .intro-text {
 	width: 100%;
 	height: auto;
 }
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: rgba(31, 56, 110, 0.8);
+	background: #00000094;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
-	opacity: 0;
+	opacity: 1;
 	transition: all 0.5s;
+	
 }
+
 .hover-bg .hover-text>h4 {
-	opacity: 0;
+	opacity: 1;
 	color: #fff;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
-	font-size: 17px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -343,10 +336,14 @@ header .intro-text {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+	color: #fff;
+	font-size: 25px;
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+
+
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
@@ -380,7 +377,7 @@ header .intro-text {
 }
 .testimonial-meta {
 	margin-top: 10px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -433,40 +430,15 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 16px;
-	line-height: 1.42857143;
-	color: #444;
-	background-color: #fff;
-	background-image: none;
-	border: 1px solid #ddd;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: #999;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-
-
 
 #contact .social {
-	padding-top: 20px;
-	margin-top: 20px;
+	padding-top: 2%;
+	margin-top: 1%;
 	text-align: center;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 30px;
+	margin: 0 50px;
 }
 #contact .social i.fa {
 	font-size: 40px;
