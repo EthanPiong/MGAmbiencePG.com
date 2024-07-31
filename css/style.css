@@ -62,6 +62,19 @@ hr {
 	border: 0;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #1f386e;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #e52f3c;
+	border-radius: 10px;
+}
+  ::-webkit-scrollbar-thumb:hover {
+	background: #d4fc4f;
+	
+  }
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -282,7 +295,12 @@ header .intro-text {
 	border-right: 0;
 	border-radius: 20px;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.156);
+	
+	
 }
+
+  
+	
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
@@ -300,10 +318,12 @@ header .intro-text {
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
 }
 .img-responsive{
 	width: 100%;
 	height: auto;
+	
 }
 
 .hover-bg .hover-text {
@@ -457,7 +477,7 @@ label {
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	padding: 30px 0;
+	padding: 10px 0;
 }
 #footer p {
 	color: #888;
