@@ -227,6 +227,10 @@ header .intro-text {
 	padding-bottom: 150px;
 	text-align: center;
 }
+
+.intro p:hover {
+	background: #e52f3c;	
+}
 /* Get Touch Section */
 #get-touch {
 	padding: 40px 0 30px;
