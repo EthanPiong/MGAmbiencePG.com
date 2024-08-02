@@ -115,7 +115,7 @@ hr {
 #menu .phone {
 	position: absolute;
 	font-family: 'Montserrat', sans-serif;
-	margin: 4px 0 0 200px;
+	margin: 4px 0 0 210px;
 	float: left;
 	font-size: 16px;
 	font-weight: 400;
@@ -204,7 +204,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 {
 	font-family: 'Montserrat', sans-serif;
-	color: #fff;
+	color: #ffffff;
 	font-size: 62px;
 	font-weight: 700;
 	margin-top: 0;
@@ -212,25 +212,32 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
 .intro p {
-	color: #fff;
+	color: #ffffff;
 	font-size: 17px;
 	line-height: 28px;
 	padding: 15px;
 	max-width: 600px;
 	margin: 0 auto;
 	margin-bottom: 40px;
-	border-radius: 10px;
-	background: rgba(0,0,0,.45);
-	transition: 0.5s;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.311);
+	
+	
 }
 header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 150px;
 	text-align: center;
+	
 }
-
-.intro p:hover {
-	background: #e52f3c;	
+.intro a {
+	font-weight: bold;
+	transition: 0.4s;
+	color: #ffffff;
+}
+.intro a:hover {
+	color:#33e7ff;
+	
 }
 /* Get Touch Section */
 #get-touch {
@@ -283,6 +290,7 @@ header .intro-text {
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
+	
 }
 #about .about-text li:before {
 	content: '\f00c';
@@ -303,7 +311,6 @@ header .intro-text {
 	
 	
 }
-
   
 	
 #about p {
@@ -413,32 +420,37 @@ header .intro-text {
 	color: rgba(255,255,255,.65);
 }
 #contact .section-title {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
-#contact h2 {
-	color: #fff;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-}
+
 #contact h4 {
 	color: #fff;
 	margin-top: 22px;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.356);
 }
-#contact form {
-	padding-top: 20px;
+
+#contact .contact-item {
+	float:center;
+	margin-left: 50px;
+	display: inline-block;
+}
+#contact iframe{
+	position:relative;
+	float: center;
+}
+#contact .contact-item span {
+	color: rgba(255,255,255,1);
+	display: block;
 }
 #contact h3 {
 	font-size: 17px;
 	font-weight: 600;
 }
-#contact .text-danger {
-	color: #cc0033;
-	text-align: left;
+
+#contact a{
+	color: #fff;
 }
 #contact .btn-custom {
 	margin: 30px 0;
