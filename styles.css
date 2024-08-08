@@ -835,7 +835,7 @@ a{
         height: auto;
       }
       .navbar-header img{
-        width: 30vh;
+        width: 20vh;
         height: 10vh;
         
         }
@@ -843,7 +843,7 @@ a{
 
 @media (max-width: 300px) {
     .navbar-header img{
-        width: 25vh;
+        width: 18vh;
         height: 10vh;
         
     }
