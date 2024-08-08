@@ -687,6 +687,7 @@ a{
     #menu a.navbar-brand {
         margin-left: 0px;
     }
+
     .hero {
         height: 50vh;
         margin-top: 10px; /* Offset for fixed header */
@@ -822,8 +823,8 @@ a{
         height: auto;
       }
     .navbar-header img{
-        width: 25vh;
-        height: 10vh;
+        width: 20vh;
+        height: 7vh;
         
     }
 }
@@ -834,17 +835,5 @@ a{
         min-width: 30vh;
         height: auto;
       }
-      .navbar-header img{
-        width: 20vh;
-        height: 10vh;
-        
-        }
-}
+    }    
 
-@media (max-width: 300px) {
-    .navbar-header img{
-        width: 18vh;
-        height: 10vh;
-        
-    }
-}
