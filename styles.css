@@ -823,7 +823,7 @@ a{
       }
     .navbar-header img{
         width: 30vh;
-        height: auto;
+        height: 10vh;
         
     }
 }
@@ -836,15 +836,15 @@ a{
       }
       .navbar-header img{
         width: 30vh;
-        height: auto;
+        height: 10vh;
         
         }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 300px) {
     .navbar-header img{
         width: 25vh;
-        height: auto;
+        height: 10vh;
         
     }
 }
