@@ -815,12 +815,17 @@ a{
         font-size: 14px !important;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .popup img{
       
         min-width: 40vh;
         height: auto;
       }
+    .navbar-header img{
+        width: 30vh;
+        height: auto;
+        
+    }
 }
 
 @media (max-width: 350px) {
@@ -829,4 +834,17 @@ a{
         min-width: 30vh;
         height: auto;
       }
+      .navbar-header img{
+        width: 30vh;
+        height: auto;
+        
+        }
+}
+
+@media (max-width: 350px) {
+    .navbar-header img{
+        width: 25vh;
+        height: auto;
+        
+    }
 }
